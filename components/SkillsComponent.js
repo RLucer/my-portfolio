@@ -1,6 +1,7 @@
 // components/SkillsComponent.js
 import { FaJs, FaReact, FaNode, FaCss3Alt, FaPhp, FaJava, FaHtml5 } from 'react-icons/fa';
 import { SiExpress, SiNextdotjs, SiMysql, SiMongodb } from 'react-icons/si';
+import { FiGithub } from 'react-icons/fi';
 
 const frontendSkills = [
   { name: 'HTML5', level: 'Intermedio', icon: <FaHtml5 /> },
@@ -19,6 +20,7 @@ const backendSkills = [
   { name: 'Java SE', level: 'Intermedio', icon: <FaJava /> },
   { name: 'MySQL', level: 'Avanzado', icon: <SiMysql /> },
   { name: 'MongoDB', level: 'Intermedio', icon: <SiMongodb /> },
+  { name: 'GitHub', level: 'Avanzado', icon: <FiGithub /> },
   // Agrega más habilidades backend aquí
 ];
 
