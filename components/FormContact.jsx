@@ -42,7 +42,7 @@ const ContactPage = () => {
               </p>
             </div>
             <div className="flex justify-center mt-">
-              <QRCode value="https://tu-web.com/contacto" size={128} className="shadow-md" />
+              <QRCode value="https://my-portfolio-peach-ten-14.vercel.app/" size={128} className="shadow-md" />
             </div>
           </div>
         </div>
