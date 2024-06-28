@@ -13,10 +13,11 @@ export default function PageAbout() {
 
             width={300}
             height={300}
+         
             alt=""
-            src="https://uc5b7a450d03840d18d211751ad1.previews.dropboxusercontent.com/p/thumb/ACVOTjZ5C5imYtvWE-9KhVmq77N6mukfS1rSG_uy-5WyYikYs17QXKSSSE473TQeeXj3uDyGSNeup0Jymvszlg06X54TwJrLzf6YoUCafWrx2MRw5TYBvCGYaJfYAca5Rco6DzkwTujAAK2d_vugIiU-mm_7sePD4RSzVEIqdIgyS07jBOctNRFo-bA8LZaWX0FlN-HO4vrMoILlPaLNIH6GiCFTkfHQvY_BYYjakFWAR6ElP_Smiv6K4V-cAKDLGw1v_ZeCpGk-GOY7sDktjborbnZoiRCWspHbrbsM_txn-gMcLhWPDeUio1nk1EwV9nFTMSuTBowyoTTh4C1hF8pV2L7FKhJtvYV0SartcTuUco6viaV2W6IA4595oXTZ-JQ/p.png?is_prewarmed=true"
+            src="yo_port_4.png"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-0 rounded-[75%]"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-0 rounded-[80%]"></div>
         </div>
 
         <div className="bg-dark-200 p-4 w-full lg:w-1/7">

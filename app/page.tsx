@@ -27,7 +27,7 @@ export default function Home() {
           height={250}
           radius="full"
           alt=""
-          src="https://uc5db1c7ac3d849317b88d710de9.previews.dropboxusercontent.com/p/thumb/ACW9Wnre_PNzZbiRNGmjPgc1NSkCx41O8ZBqRwnA_mU1E4ZPCmjioAJt57x2mc-dPidnxTJmbtN1qpdPwuh7nNJhk7G_p7_zZhbGm1BOJCFJbEaC0cCRtQdxW0gdskIqNRz7eHp4XFb1LS_X5u4BWZIbqDxvQ4eiVkgWeijJUpTbCpSedj_4P1uVZ3TT5N-c0ipTA_149BBIx-nygWa18gxPu8jJK6BNpDr3Lr5DW1lUW4bLOLQczkgouQ_9UnQUDzCnJ41Ou1trG8nR1JpWQJzGdFTRvdek9oED_alzxx2JMLTZoOlqf7pVKkp67VVflVUM5Rd8ViZuHcIQMeclMZYkFe7QdYv5b44dOGuZuS7VwEAi1vJX0p4B6GEFdTMS9sY/p.png?is_prewarmed=true"
+          src="yo_port.png"
           className="mt-6"
         />
 
