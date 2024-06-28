@@ -53,12 +53,13 @@ const getLevelColor = (level) => {
 export default function SkillsComponent() {
   return (
     <div className="max-w-4xl mx-auto py-8">
-
-      
-      <h3 className="text-2xl font-semibold mb-4 mt-2text-gray-900 dark:text-gray-100">Frontend</h3>
+      <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Frontend</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
         {frontendSkills.map((skill, index) => (
-          <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex flex-col items-center">
+          <div
+            key={index}
+            className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex flex-col items-center transform transition-transform hover:scale-110"
+          >
             <div className="text-4xl mb-4 text-gray-900 dark:text-gray-100">
               {skill.icon || <FaJs />}
             </div>
@@ -76,7 +77,10 @@ export default function SkillsComponent() {
       <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Backend</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {backendSkills.map((skill, index) => (
-          <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex flex-col items-center">
+          <div
+            key={index}
+            className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex flex-col items-center transform transition-transform hover:scale-110"
+          >
             <div className="text-4xl mb-4 text-gray-900 dark:text-gray-100">
               {skill.icon || <FaJs />}
             </div>
