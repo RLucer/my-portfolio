@@ -5,12 +5,11 @@ import { GithubIcon } from "@/components/icons";
 import ButonGit from "@/components/ButonGit";
 import { Link } from "@nextui-org/link";
 import { siteConfig } from "@/config/site";
-
+import './card.css';
 export default function CardProyect() {
   return (
-    <div className="max-w-[900px] gap-2 mt-12 grid grid-cols-12 grid-rows-2 px-8">
-
-      <Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-4 mb-6">
+    <div className="max-w-[900px] gap-6 mt-12 grid grid-cols-12 grid-rows-2 px-8">
+      <Card isFooterBlurred className="card w-full h-[300px] col-span-12 sm:col-span-4 mb-6">
         <CardHeader className="absolute z-10 top-1 flex-col items-center">
         </CardHeader>
         <Image
@@ -21,23 +20,17 @@ export default function CardProyect() {
         />
         <CardFooter className="absolute bg-black/50 bottom-0 z-10 border-t-1 border-default-400 dark:border-default-100">
           <div className="flex flex-grow gap-4 items-center">
-            {/* <Image
-              alt="Breathing app icon"
-              className="rounded-full w-10 h-11 bg-black"
-              src="https://nextui.org/images/breathing-app-icon.jpeg"
-            /> */}
             <div className="flex flex-col">
               <p className="text-tiny text-white/60"> </p>
               <p className="text-tiny text-white/80 uppercase font-bold">Dashboard</p>
               <p className="text-tiny text-white/90">Consumo de api</p>
-              {/* <h4 className="text-white/90 font-medium text-xl"></h4> */}
             </div>
           </div>
           <ButonGit url="https://github.com/RLucer/apiConsumo" />
         </CardFooter>
       </Card>
-
-      <Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-4 mb-6">
+  
+      <Card isFooterBlurred className="card w-full h-[300px] col-span-12 sm:col-span-4 mb-6">
         <CardHeader className="absolute z-10 top-1 flex-col items-center">
         </CardHeader>
         <Image
@@ -48,26 +41,18 @@ export default function CardProyect() {
         />
         <CardFooter className="absolute bg-black/50 bottom-0 z-10 border-t-1 border-default-400 dark:border-default-100">
           <div className="flex flex-grow gap-4 items-center">
-            {/* <Image
-              alt="Breathing app icon"
-              className="rounded-full w-10 h-11 bg-black"
-              src="https://nextui.org/images/breathing-app-icon.jpeg"
-            /> */}
             <div className="flex flex-col">
               <p className="text-tiny text-white/60"> </p>
               <p className="text-tiny text-white/80 uppercase font-bold">App Restaurant</p>
               <p className="text-tiny text-white/90">Agendamiento de reservas</p>
-              {/* <h4 className="text-white/90 font-medium text-xl"></h4> */}
             </div>
           </div>
           <ButonGit url="https://github.com/RLucer/appRestaurant" />
         </CardFooter>
       </Card>
-
-
-      <Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-4 mb-6">
+  
+      <Card isFooterBlurred className="card w-full h-[300px] col-span-12 sm:col-span-4 mb-6">
         <CardHeader className="absolute z-10 top-1 flex-col items-center">
-
         </CardHeader>
         <Image
           removeWrapper
@@ -77,16 +62,10 @@ export default function CardProyect() {
         />
         <CardFooter className="absolute bg-black/50 bottom-0 z-10 border-t-1 border-default-400 dark:border-default-100">
           <div className="flex flex-grow gap-4 items-center">
-            {/* <Image
-              alt="Breathing app icon"
-              className="rounded-full w-10 h-11 bg-black"
-              src="https://nextui.org/images/breathing-app-icon.jpeg"
-            /> */}
             <div className="flex flex-col">
               <p className="text-tiny text-white/60"> </p>
               <p className="text-tiny text-white/80 uppercase font-bold">App tienda Ecommerce</p>
               <p className="text-tiny text-white/90">Incluye pasarela de pago</p>
-              {/* <h4 className="text-white/90 font-medium text-xl"></h4> */}
             </div>
           </div>
           <ButonGit url="https://github.com/RLucer/tienda-ecommerce-5" />
@@ -94,4 +73,5 @@ export default function CardProyect() {
       </Card>
     </div>
   );
+  
 }

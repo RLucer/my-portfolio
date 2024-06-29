@@ -77,6 +77,7 @@ export default function SkillsComponent() {
       <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Backend</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {backendSkills.map((skill, index) => (
+       
           <div
             key={index}
             className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex flex-col items-center transform transition-transform hover:scale-110"
