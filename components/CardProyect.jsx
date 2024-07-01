@@ -58,7 +58,7 @@ export default function CardProyect() {
           removeWrapper
           alt=" app background"
           className="z-0 w-full h-full object-cover"
-          src="https://ucaeaede223ea0455af49bbdef21.previews.dropboxusercontent.com/p/thumb/ACVZR5qO8akMP68pY79RvR74cfosGTgp5oR43E_VIraZDX4byxUvqiO9C1Ih9au3bUbJ1EbUMHRsTkBxTOP_UKu6D28T7Tl2qZNK1oidvV0pmHL4rTciAzrIhwd_okGKIAdySf2ew2KqJT_PqL0Ic8t_T4FuDWSeOnF-2oJwits-1z60hXzGdd75R1CfrO1czvctO_N0OYzWwW0sN4VWXPTMlPukRkMsCwdkMx8rNnMxwGCX7s-TSgHI0PVoQirjSkE5xsrqPoMGMJ2qIWwEcw-hXSD7FPVCawJznEfOMp3p1KXrXEM10-xqrmV6eZXA9Gz7muvFdEe0uEDVkZ0gw7t8LaORxKs4TwYZo7ty6wFt8zNhtfbWnenyb-n8FW097G4/p.png?is_prewarmed=true"
+          src="https://raw.githubusercontent.com/RLucer/tienda-ecommerce-5/main/public/screenshot.png"
         />
         <CardFooter className="absolute bg-black/50 bottom-0 z-10 border-t-1 border-default-400 dark:border-default-100">
           <div className="flex flex-grow gap-4 items-center">
