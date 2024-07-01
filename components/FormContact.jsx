@@ -20,7 +20,7 @@ const ContactPage = () => {
 
       <div className="grid grid-cols-1  text-center gap-4 p-4 lg:grid-cols-2 lg:w-4/4 lg:ml-2 mt-2 lg:mt-0">
         <div className="bg-dark-300 p-4 w-full lg:w-1/7">
-          <h1 className={title({ color: "green" })} >Mis datos...&nbsp;</h1>
+          <h1 className={title({ color: "green" })} >  &lt;Mis datos... / &gt;  &nbsp;</h1>
           <div className="">
             <br /><br />
             <div className="space-y-4 ">
@@ -48,7 +48,7 @@ const ContactPage = () => {
         </div>
 
         <div className="bg-dark-300 p-4 w-full lg:w-1/7">
-          <h1 className={title({ color: "green" })} >Contáctame...&nbsp;</h1>
+          <h1 className={title({ color: "green" })} > &lt; Contáctame... / &gt;  &nbsp;</h1>
           <form onSubmit={handleSubmit} className="mt-10 space-y-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium ">
