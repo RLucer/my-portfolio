@@ -30,7 +30,7 @@ export default function Home() {
           src="yo_port.png"
           className="mt-6"
         />
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c1750357-f010-43a7-84ae-deb11af02b81" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c1750357-f010-43a7-84ae-deb11af02b81" data-share-badge-host="https://www.credly.com"></div>
       </div>
 
       <div className="inline-block max-w-lg text-center justify-center">
