@@ -18,6 +18,8 @@ export default function PageAbout() {
             src="yo_port_4.png"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-0 rounded-[80%]"></div>
+
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c1750357-f010-43a7-84ae-deb11af02b81" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
         </div>
 
         <div className="bg-dark-200 p-4 w-full lg:w-1/7">
