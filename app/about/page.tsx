@@ -20,15 +20,17 @@ export default function PageAbout() {
           <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-0 rounded-[80%]"></div>
 
          </div>
+         
 
-         <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c1750357-f010-43a7-84ae-deb11af02b81" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-      
-
+       
 
         <div className="bg-dark-200 p-4 w-full lg:w-1/7">
           <h1 className={title({ color: "green" })} >&lt; Hola...  / &gt;  &nbsp;</h1>
           <h1 className={subtitle()}>
             <p>Soy Ricardo Lucero Sanhueza, </p>
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c1750357-f010-43a7-84ae-deb11af02b81" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+      
+
             <br />
           </h1>
           <p>desarrollador de software con una pasión por crear soluciones innovadoras y eficientes que resuelvan problemas reales. Con más de 4 años de experiencia en el desarrollo de aplicaciones web y móviles, me especializo en transformar ideas complejas en productos digitales funcionales y atractivos. Mi enfoque se centra en combinar la lógica del backend con una interfaz de usuario intuitiva y agradable.</p>
