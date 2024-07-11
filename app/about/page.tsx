@@ -13,28 +13,23 @@ export default function PageAbout() {
 
             width={300}
             height={300}
-         
+
             alt=""
             src="yo_port_4.png"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-0 rounded-[80%]"></div>
 
-         </div>
-         
+        </div>
 
-       
+
+
 
         <div className="bg-dark-200 p-4 w-full lg:w-1/7">
           <h1 className={title({ color: "green" })} >&lt; Hola...  / &gt;  &nbsp;</h1>
-          <h1 className={subtitle()}>
-            <p>Soy Ricardo Lucero Sanhueza, </p>
-           
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c1750357-f010-43a7-84ae-deb11af02b81" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-            <br />
+          <h1 className={subtitle()}> 
           </h1>
-            <p>desarrollador de software con una pasión por crear soluciones innovadoras y eficientes que resuelvan problemas reales. Con más de 4 años de experiencia en el desarrollo de aplicaciones web y móviles, me especializo en transformar ideas complejas en productos digitales funcionales y atractivos. Mi enfoque se centra en combinar la lógica del backend con una interfaz de usuario intuitiva y agradable.</p>
-         <br />
+          <p>desarrollador de software con una pasión por crear soluciones innovadoras y eficientes que resuelvan problemas reales. Con más de 4 años de experiencia en el desarrollo de aplicaciones web y móviles, me especializo en transformar ideas complejas en productos digitales funcionales y atractivos. Mi enfoque se centra en combinar la lógica del backend con una interfaz de usuario intuitiva y agradable.</p>
+          <br />
           <p>A lo largo de mi carrera, he trabajado con una amplia gama de tecnologías y herramientas, incluyendo JavaScript, Java , PHP, React, Node.js, Mysql, Mongo DB, Express.js, Next.js, entre otras. Estoy constantemente aprendiendo y adaptándome a nuevas tendencias y avances en el campo del desarrollo de software, lo que me permite ofrecer soluciones modernas y eficientes.</p>
 
         </div>
