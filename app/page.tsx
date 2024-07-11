@@ -34,8 +34,7 @@ export default function Home() {
             </div>
     
       <div className="inline-block max-w-lg text-center justify-center">
-      <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d500f85a-e985-45f4-98b3-56738179dd4c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <h1 className={title()}>¡Hola! soy</h1>
+         <h1 className={title()}>¡Hola! soy</h1>
         <h1 className={title({ color: "green" })}> &lt;  Ricardo / &gt;  &nbsp;</h1>
         <br />
         <h1 className={subtitle()}>
