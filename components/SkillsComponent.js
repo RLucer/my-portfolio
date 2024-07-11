@@ -55,11 +55,11 @@ export default function SkillsComponent() {
     <div className="max-w-4xl mx-auto py-8">
       <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Insignias</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
-        <div data-iframe-width="100" data-iframe-height="270" data-share-badge-id="d500f85a-e985-45f4-98b3-56738179dd4c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        <div data-iframe-width="200" data-iframe-height="270" data-share-badge-id="d500f85a-e985-45f4-98b3-56738179dd4c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
-        <div data-iframe-width="100" data-iframe-height="270" data-share-badge-id="c1750357-f010-43a7-84ae-deb11af02b81" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        <div data-iframe-width="200" data-iframe-height="270" data-share-badge-id="c1750357-f010-43a7-84ae-deb11af02b81" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
-        <div data-iframe-width="100" data-iframe-height="270" data-share-badge-id="d500f85a-e985-45f4-98b3-56738179dd4c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        <div data-iframe-width="200" data-iframe-height="270" data-share-badge-id="d500f85a-e985-45f4-98b3-56738179dd4c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 
       </div>
