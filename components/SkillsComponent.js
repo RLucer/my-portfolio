@@ -71,71 +71,71 @@ export default function SkillsComponent() {
             <div data-iframe-width="200" data-iframe-height="270" data-share-badge-id="d500f85a-e985-45f4-98b3-56738179dd4c" data-share-badge-host="https://www.credly.com"></div>
             <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
           </div>
-        </div>
-        <div class="iframe-container">
-          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4403fc9b-913a-46d1-b180-313af64110c4" data-share-badge-host="https://www.credly.com"></div>
-          <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        </div>
 
-        <div class="iframe-container">
-          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6085e7b3-5c76-4f82-8011-ebc047615505" data-share-badge-host="https://www.credly.com">
-          </div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        </div>
-
-        <div class="iframe-container">
-          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c40b9c93-b32e-4120-b072-1f833c2013d5" data-share-badge-host="https://www.credly.com">
-          </div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        </div>
-
-      </div>
-
-
-
-
-
-
-      <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Frontend</h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
-        {frontendSkills.map((skill, index) => (
-          <div
-            key={index}
-            className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex flex-col items-center transform transition-transform hover:scale-110"
-          >
-            <div className="text-4xl mb-4 text-gray-900 dark:text-gray-100">
-              {skill.icon || <FaJs />}
-            </div>
-            <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">{skill.name}</h3>
-            <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-4 mb-4">
-              <div
-                className={`${getLevelColor(skill.level)} h-4 rounded-full ${getLevelWidth(skill.level)}`}
-              ></div>
-            </div>
-            <p className="text-gray-700 dark:text-gray-300">{skill.level}</p>
+          <div class="iframe-container">
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4403fc9b-913a-46d1-b180-313af64110c4" data-share-badge-host="https://www.credly.com"></div>
+            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
           </div>
-        ))}
-      </div>
 
-      <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Backend</h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {backendSkills.map((skill, index) => (
-
-          <div
-            key={index}
-            className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex flex-col items-center transform transition-transform hover:scale-110"
-          >
-            <div className="text-4xl mb-4 text-gray-900 dark:text-gray-100">
-              {skill.icon || <FaJs />}
-            </div>
-            <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">{skill.name}</h3>
-            <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-4 mb-4">
-              <div
-                className={`${getLevelColor(skill.level)} h-4 rounded-full ${getLevelWidth(skill.level)}`}
-              ></div>
-            </div>
-            <p className="text-gray-700 dark:text-gray-300">{skill.level}</p>
+          <div class="iframe-container">
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6085e7b3-5c76-4f82-8011-ebc047615505" data-share-badge-host="https://www.credly.com">
+            </div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
           </div>
-        ))}
+
+          <div class="iframe-container">
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c40b9c93-b32e-4120-b072-1f833c2013d5" data-share-badge-host="https://www.credly.com">
+            </div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+          </div>
+
+        </div>
+
+
+
+
+
+
+        <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Frontend</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
+          {frontendSkills.map((skill, index) => (
+            <div
+              key={index}
+              className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex flex-col items-center transform transition-transform hover:scale-110"
+            >
+              <div className="text-4xl mb-4 text-gray-900 dark:text-gray-100">
+                {skill.icon || <FaJs />}
+              </div>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">{skill.name}</h3>
+              <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-4 mb-4">
+                <div
+                  className={`${getLevelColor(skill.level)} h-4 rounded-full ${getLevelWidth(skill.level)}`}
+                ></div>
+              </div>
+              <p className="text-gray-700 dark:text-gray-300">{skill.level}</p>
+            </div>
+          ))}
+        </div>
+
+        <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Backend</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {backendSkills.map((skill, index) => (
+
+            <div
+              key={index}
+              className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex flex-col items-center transform transition-transform hover:scale-110"
+            >
+              <div className="text-4xl mb-4 text-gray-900 dark:text-gray-100">
+                {skill.icon || <FaJs />}
+              </div>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">{skill.name}</h3>
+              <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-4 mb-4">
+                <div
+                  className={`${getLevelColor(skill.level)} h-4 rounded-full ${getLevelWidth(skill.level)}`}
+                ></div>
+              </div>
+              <p className="text-gray-700 dark:text-gray-300">{skill.level}</p>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
-  );
+      );
 }
