@@ -72,8 +72,27 @@ export default function SkillsComponent() {
             <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
           </div>
         </div>
+        <div class="iframe-container">
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4403fc9b-913a-46d1-b180-313af64110c4" data-share-badge-host="https://www.credly.com"></div>
+          <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        </div>
+
+        <div class="iframe-container">
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6085e7b3-5c76-4f82-8011-ebc047615505" data-share-badge-host="https://www.credly.com">
+          </div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        </div>
+
+        <div class="iframe-container">
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c40b9c93-b32e-4120-b072-1f833c2013d5" data-share-badge-host="https://www.credly.com">
+          </div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        </div>
 
       </div>
+
+
+
+
+
 
       <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Frontend</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
