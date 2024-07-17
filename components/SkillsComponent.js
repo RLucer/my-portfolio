@@ -2,7 +2,9 @@
 import { FaJs, FaReact, FaNode, FaCss3Alt, FaPhp, FaJava, FaHtml5 } from 'react-icons/fa';
 import { SiExpress, SiNextdotjs, SiMysql, SiMongodb } from 'react-icons/si';
 import { FiGithub } from 'react-icons/fi';
+
 import './SkillsComponent.css'
+
 
 const frontendSkills = [
   { name: 'HTML5', level: 'Intermedio', icon: <FaHtml5 /> },
@@ -56,41 +58,38 @@ export default function SkillsComponent() {
     <div className="max-w-4xl mx-auto py-8">
       <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Insignias</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
-          <div class="iframe-container">
-            <div data-iframe-width="200" data-iframe-height="270" data-share-badge-id="d500f85a-e985-45f4-98b3-56738179dd4c" data-share-badge-host="https://www.credly.com"></div>
-            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-          </div>
-
-          <div class="iframe-container">
-            <div data-iframe-width="200" data-iframe-height="270" data-share-badge-id="c1750357-f010-43a7-84ae-deb11af02b81" data-share-badge-host="https://www.credly.com"></div>
-            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-          </div>
-
-          <div class="iframe-container">
-            <div data-iframe-width="200" data-iframe-height="270" data-share-badge-id="d500f85a-e985-45f4-98b3-56738179dd4c" data-share-badge-host="https://www.credly.com"></div>
-            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-          </div>
-
-          <div class="iframe-container">
-            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4403fc9b-913a-46d1-b180-313af64110c4" data-share-badge-host="https://www.credly.com"></div>
-            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-          </div>
-
-          <div class="iframe-container">
-            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6085e7b3-5c76-4f82-8011-ebc047615505" data-share-badge-host="https://www.credly.com"></div>
-            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-          </div>
-
-          <div class="iframe-container">
-            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c40b9c93-b32e-4120-b072-1f833c2013d5" data-share-badge-host="https://www.credly.com"></div>
-            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-          </div>
+    
 
 
-        </div>
+          <div data-iframe-width="200" data-iframe-height="270" data-share-badge-id="d500f85a-e985-45f4-98b3-56738179dd4c" data-share-badge-host="https://www.credly.com"></div>
+          <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    
+
+        <div data-iframe-width="200" data-iframe-height="270" data-share-badge-id="c1750357-f010-43a7-84ae-deb11af02b81" data-share-badge-host="https://www.credly.com"></div>
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+
+
+        <div data-iframe-width="200" data-iframe-height="270" data-share-badge-id="d500f85a-e985-45f4-98b3-56738179dd4c" data-share-badge-host="https://www.credly.com"></div>
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+
+
+        <div data-iframe-width="200" data-iframe-height="270" data-share-badge-id="4403fc9b-913a-46d1-b180-313af64110c4" data-share-badge-host="https://www.credly.com"></div>
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+
+        <div data-iframe-width="200" data-iframe-height="270" data-share-badge-id="6085e7b3-5c76-4f82-8011-ebc047615505" data-share-badge-host="https://www.credly.com"></div>
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+
+
+        <div data-iframe-width="200" data-iframe-height="270" data-share-badge-id="c40b9c93-b32e-4120-b072-1f833c2013d5" data-share-badge-host="https://www.credly.com"></div>
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
 
       </div>
+
 
       <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Frontend</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
