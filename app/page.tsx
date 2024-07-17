@@ -35,7 +35,7 @@ export default function Home() {
     
       <div className="inline-block max-w-lg text-center justify-center">
          <h1 className={title()}>¡Hola! soy</h1>
-        <h1 className={title({ color: "green" })}> &lt;  Ricardo / &gt;  &nbsp;</h1>
+        <h1 className={title({ color: "green" })}> &lt;  Ricardo /&gt;  &nbsp;</h1>
         <br />
         <h1 className={subtitle()}>
           Me motiva la oportunidad de resolver problemas y mejorar la vida de las personas a través del software.
